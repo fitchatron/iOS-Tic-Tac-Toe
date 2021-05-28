@@ -28,9 +28,9 @@ struct ContentView: View {
                                 .opacity(0.5)
                                 .frame(width: geomerty.size.width / 3 - 15, height: geomerty.size.width / 3 - 15)
                             
-                            Image(systemName: moves[item]?.indicator ?? "")
+                            Image(moves[item]?.indicator ?? "")
                                 .resizable()
-                                .frame(width: 40, height: 40)
+                                .frame(width: 60, height: 60)
                                 .foregroundColor(.white)
                         }
                         .onTapGesture {
@@ -112,7 +112,7 @@ struct Move {
     let player: Player
     let boardIndex: Int
     
-    var indicator: String { player == .human ? "xmark" : "circle" }
+    var indicator: String { player == .human ? "iggy" : "rufus" }
 }
 
 struct ContentView_Previews: PreviewProvider {
