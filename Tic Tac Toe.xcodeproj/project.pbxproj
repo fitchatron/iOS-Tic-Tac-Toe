@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09B127382661C76700C10C99 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B127372661C76700C10C99 /* Alerts.swift */; };
 		09EEC659265A11DC00D53B99 /* Tic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEC658265A11DC00D53B99 /* Tic_Tac_ToeApp.swift */; };
 		09EEC65B265A11DC00D53B99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EEC65A265A11DC00D53B99 /* ContentView.swift */; };
 		09EEC65D265A11DD00D53B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09EEC65C265A11DD00D53B99 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09B127372661C76700C10C99 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		09EEC655265A11DC00D53B99 /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EEC658265A11DC00D53B99 /* Tic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeApp.swift; sourceTree = "<group>"; };
 		09EEC65A265A11DC00D53B99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				09EEC65C265A11DD00D53B99 /* Assets.xcassets */,
 				09EEC661265A11DD00D53B99 /* Info.plist */,
 				09EEC65E265A11DD00D53B99 /* Preview Content */,
+				09B127372661C76700C10C99 /* Alerts.swift */,
 			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09EEC65B265A11DC00D53B99 /* ContentView.swift in Sources */,
+				09B127382661C76700C10C99 /* Alerts.swift in Sources */,
 				09EEC659265A11DC00D53B99 /* Tic_Tac_ToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
